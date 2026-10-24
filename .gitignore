@@ -1,0 +1,12 @@
+# Files your computer makes that do not belong in your repo.
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and tool folders.
+.vercel/
+node_modules/
+
+# Never commit secrets. Keep keys and passwords out of this repo.
+.env
+.env.*

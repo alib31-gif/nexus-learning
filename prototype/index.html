@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My prototype</title>
+  <!-- These links have no "/" at the start, so they find the files in this folder. -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--
+    START HERE
+    This page is your prototype: the first working version of your idea.
+    1. Change the heading below to your venture's name.
+    2. Open app.js to see what the button does.
+    3. Build ONE core feature. Use the build prompt from the Build kit in VentureOS
+       and paste it into Qwen in VS Code chat.
+  -->
+  <main class="app">
+    <h1>My prototype</h1>
+    <p>Click the button to see JavaScript at work.</p>
+
+    <button id="main-button" type="button">Click me</button>
+
+    <!-- app.js writes messages into this paragraph. -->
+    <p id="message" aria-live="polite"></p>
+
+    <p class="back"><a href="../">Back to the home page</a></p>
+  </main>
+
+  <!-- Load the JavaScript last, after the page's HTML exists. -->
+  <script src="app.js"></script>
+</body>
+</html>
